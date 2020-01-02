@@ -1,0 +1,80 @@
+body{
+	background:black;
+	color: white;
+	
+}
+div{
+     padding-left: 200px;
+     padding-right: 110px;
+     padding-top: 130px;
+     font-size: 110%;
+    
+}
+article{
+	font-family: sans-serif;
+	float:left;
+	height: 300px;
+	width: 60%;
+}
+.divv{
+	float: left;
+	height:300px;
+	
+
+}
+
+button{
+	background: yellow;
+	padding: 10px;
+	width: 40%;
+	font-weight: bolder;
+	font-size: 100%;
+}
+h1{
+	font-size: 250%;
+	font-family: sans-serif;
+}
+
+.fa {
+  color: yellow;
+  text-decoration: none;
+  margin: 15px 0px;
+}
+@media screen and (max-width: 1024px){
+	article{
+		width: 100%;
+		font-size: 40px;
+		
+	}
+	button{
+	
+	padding: 10px;
+	width: 100%;
+	font-size: 80%;
+	}
+	.divv{
+	  
+	   margin-top: 500px;
+		font-size:40px;
+	}
+	
+}
+@media screen and (max-width: 336px){
+	article{
+		width: 100%;
+		font-size: 40px;
+		
+		
+	}
+	button{
+	
+	padding: 10px;
+	width: 100%;
+	font-size: 80%;
+	}
+	.divv{
+	  width: 150%;
+	   margin-top: 500px;
+		font-size: 40px;
+	}
+}
